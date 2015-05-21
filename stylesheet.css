@@ -36,7 +36,7 @@ div{
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: 400px;
+	height: 700px;
 	background-color: #B9D7D9;
 	margin-bottom: 10px;
 }
@@ -46,8 +46,8 @@ div{
 	float: right;
 	margin-top: 50px;
 	width: 88%;
-	height: 400px;
-	background-color: #F4EBC3;
+	height: 700px;
+	background-color: #FFCC66;
 	margin-bottom: 10px;
 }
 
@@ -60,4 +60,36 @@ div{
 	font-size: 14px;
 	text-align: center;
 	color: #ffffff;
+}
+
+div div {
+	height: 50px;
+	width: 10%;
+	border: 2px solid black;
+	border-radius: 5px;
+	display:inline-block;
+	
+}
+
+#one {
+	background-color: #FF0000;
+}
+
+#two {
+	background-color: #0000FF;
+}
+
+#three {
+	background-color: #FFD700;
+}
+
+#four {
+	background-color: #308014;
+}
+
+#five {
+	background-color: #FFCC66;
+	width: 57%;
+	margin-left:-5px;
+	
 }
