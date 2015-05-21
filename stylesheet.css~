@@ -24,7 +24,7 @@ div{
 #header {
 	z-index: 1;
 	position: fixed;
-	width: 97.5%;
+	width: 98%;
 	margin-top: -20px;
 	height: 60px;
 	background-color: #668284;
@@ -111,7 +111,7 @@ div div {
 
 #five {
 	background-color: #E6B85C;
-	width: 57%;
+	width: 55%;
 	margin-left:-5px;
 	
 }
