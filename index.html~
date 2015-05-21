@@ -11,10 +11,11 @@
 	    </div>
 	    <div class = "left"> </div>
 	    <div class = "right">
-	    	<div id="one">jtiojoi</div>
-			<div id="two"></div>
-			<div id="three"></div>
-			<div id="four"></div>
+	    	<div id="one">A Link</div>
+			<div id="two">
+			Another Link</div>
+			<div id="three">Third Link</div>
+			<div id="four">Last Link</div>
 	    	<div id = "five"></div>
 	    </div>
 	    <div id = "footer"> </div>
