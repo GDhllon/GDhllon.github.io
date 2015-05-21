@@ -116,9 +116,3 @@ div div {
 	
 }
 
-#line{
-	
-	width = 60%;
-	border:1px solid black;
-
-}
