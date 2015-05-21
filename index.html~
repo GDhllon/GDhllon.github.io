@@ -16,8 +16,8 @@
 			<div id="three">Third Link</div>
 			<div id="four">Last Link</div>
 	    	<div id = "five">
-	    		<div id = "six">Name: Gary Dhillon 
-	    		                                                 Subject: Computer Science</div>
+	    		<div id = "six">Name: Gary Dhillon </div>
+	    			   <p>Subject: Computer Science</p>
 	    		</div>
 	    </div>
 	    <div id = "footer"> </div>

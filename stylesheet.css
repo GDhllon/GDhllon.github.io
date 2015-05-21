@@ -11,6 +11,10 @@ div{
 	color: #ffffff;
 }
 
+#name2 {
+	margin-top:-10px;
+}
+
 #email{
 	float:right;
 	up:20;
