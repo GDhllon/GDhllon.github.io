@@ -25,6 +25,13 @@ li {
 	background-color: #cc0323;
 }
 
+li:hover{
+	
+	-webkit-box-shadow: 0 0 15px 4px #f00;
+   -moz-box-shadow: 0 0 15px 4px #f00;
+   box-shadow: 0 0 15px 4px #f00;
+}
+
 #name {
 	float:left;
 	margin-left: 5px;
@@ -34,7 +41,12 @@ li {
 	color: #ffffff;
 }
 
-#name2 {
+#name:hover{
+	color:#FF0000
+
+}
+
+#name2{
 	margin-top:-10px;
 }
 

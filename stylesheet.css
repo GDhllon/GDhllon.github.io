@@ -41,7 +41,12 @@ li:hover{
 	color: #ffffff;
 }
 
-#name2 {
+#name:hover{
+	color:#FF0000
+
+}
+
+#name2{
 	margin-top:-10px;
 }
 
@@ -53,6 +58,11 @@ li:hover{
 	font-size: 16px;
 	font-family: Verdana, sans-serif;
 	color: #FFFFFF;
+}
+
+#email:hover{
+	color:#FF0000
+
 }
 
 #header {

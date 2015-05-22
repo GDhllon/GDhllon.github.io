@@ -6,7 +6,7 @@
 	</head>
 	<body>
 	    <div id = "header"> 
-	   <p id="name">Gary Dhillon</p>
+	   <a href = "www.garydhillon.com"><p id="name">Gary Dhillon</p>
 	   <div id="navbar">
 				<ul>
 					<li>About</li>
@@ -30,7 +30,7 @@
 	    	
 	    	
 	    		</div>
-	    	<hr id="line" color="black" size="5">
+	    	<hr id="line" color="black" size="2.5">
 	    </div>
 	    <div id = "footer"> </div>
 	</body>
