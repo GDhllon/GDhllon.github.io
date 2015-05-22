@@ -2,6 +2,29 @@ div{
     border-radius:5px;
 }
 
+#navbar {
+	/*Add your CSS here!*/
+	position:relative;
+	margin-left:-130px;
+	left:50%;
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+}
+
+li {
+	/*Add your CSS here!*/
+	display:block;
+	padding:5px;
+	border: 2px solid #000000;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+}
+
 #name {
 	float:left;
 	margin-left: 5px;
@@ -92,6 +115,8 @@ div div {
 	margin-right: 5px;
 	margin: 0 auto;
 	margin-top: 30px;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
 	
 	
    background: #FF0000;
@@ -119,6 +144,8 @@ div div {
 	text-align: center;
 	margin-top:20px;
 	margin-left: -10px;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
 	
 	 margin: 0 auto;
 	 margin-top: 20px;
@@ -148,6 +175,8 @@ div div {
 	margin-top:10px;
 	margin-left: -10px;
 	margin: 0 auto;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
 	
 	margin-top: 10px;
 	
@@ -175,6 +204,8 @@ div div {
 	font-size: 14px;
 	text-align: center;
 	margin-left: -10px;
+	font-family: Futura, Tahoma, sans-serif;
+	color: #ffffff;
 	
 	margin: 0 auto;
 	
