@@ -58,7 +58,7 @@ div{
    background: -o-linear-gradient(top,  #FFCC66 31%,#d3f6fe 100%);
    background: -ms-linear-gradient(top,  #FFCC66 31%,#d3f6fe 100%);
    background: linear-gradient(to bottom, #FFCC66 31%,#d3f6fe 100%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFCC66', endColorstr='#d3f6fe',GradientType=0 );
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD700', endColorstr='#d3f6fe',GradientType=0 );
 	border: 2px solid #303030;
 	margin-bottom: 10px;
 }
