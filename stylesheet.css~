@@ -4,14 +4,14 @@ div{
 
 #navbar {
 	/*Add your CSS here!*/
-	position:relative;
+	position:fixed;
 	margin-left:-100px;
 	left:50%;
 }
 
 ul{
 	list-style-type: none;
-	position:absolute;
+	position:fixed;
 }
 
 li {
