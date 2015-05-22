@@ -4,19 +4,19 @@ div{
 
 #navbar {
 	/*Add your CSS here!*/
-	position:relative;
+	position:fixed;
 	margin-left:-100px;
 	left:50%;
 }
 
 ul{
 	list-style-type: none;
-	position:absolute;
+	position:fixed;
 }
 
 li {
 	/*Add your CSS here!*/
-	display:block;
+	display:inline;
 	padding:5px;
 	border: 2px solid #000000;
 	font-family: Futura, Tahoma, sans-serif;

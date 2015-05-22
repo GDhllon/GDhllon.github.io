@@ -16,7 +16,7 @@ ul{
 
 li {
 	/*Add your CSS here!*/
-	display:block;
+	display:inline;
 	padding:5px;
 	border: 2px solid #000000;
 	font-family: Futura, Tahoma, sans-serif;
@@ -178,7 +178,6 @@ div div {
 	text-align: center;
 	margin-top:10px;
 	margin-left: -10px;
-	margin: 0 auto;
 	font-family: Futura, Tahoma, sans-serif;
 	color: #ffffff;
 	border-top-width:6px;
