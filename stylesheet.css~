@@ -92,10 +92,6 @@ div div {
 	margin-right: 5px;
 	margin: 0 auto;
 	margin-top: 30px;
-    
-   -webkit-box-shadow: 0 0 15px 4px #f00;
-   -moz-box-shadow: 0 0 15px 4px #f00;
-   box-shadow: 0 0 15px 4px #f00;
 	
 	
    background: #FF0000;
@@ -109,6 +105,13 @@ div div {
 
 }
 
+#one:hover{
+
+	-webkit-box-shadow: 0 0 15px 4px #f00;
+   -moz-box-shadow: 0 0 15px 4px #f00;
+   box-shadow: 0 0 15px 4px #f00;
+}
+
 #two {
 	vertical-align: top;
 	font-family: Verdana, sans-serif;
@@ -119,10 +122,6 @@ div div {
 	
 	 margin: 0 auto;
 	 margin-top: 20px;
-    
-   -webkit-box-shadow: 0 0 15px 4px #00f;
-   -moz-box-shadow: 0 0 15px 4px #00f;
-   box-shadow: 0 0 15px 4px #00f;
 	
 	background: #0000FF;
    background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#94c4fe), color-stop(100%,#d3f6fe));
@@ -132,6 +131,13 @@ div div {
    background: -ms-linear-gradient(top,  #0000FF 31%,#d3f6fe 100%);
    background: linear-gradient(to bottom, #0000FF 31%,#d3f6fe 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0000FF', endColorstr='#d3f6fe',GradientType=0 );
+}
+
+#two:hover{
+	-webkit-box-shadow: 0 0 15px 4px #00f;
+   -moz-box-shadow: 0 0 15px 4px #00f;
+   box-shadow: 0 0 15px 4px #00f;
+
 }
 
 #three {
@@ -144,10 +150,6 @@ div div {
 	margin: 0 auto;
 	
 	margin-top: 10px;
-    
-   -webkit-box-shadow: 0 0 15px 4px #ff0;
-   -moz-box-shadow: 0 0 15px 4px #ff0;
-   box-shadow: 0 0 15px 4px #ff0;
 	
 	background: #FFD700;
    background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#94c4fe), color-stop(100%,#d3f6fe));
@@ -159,6 +161,14 @@ div div {
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD700', endColorstr='#d3f6fe',GradientType=0 );
 }
 
+#three:hover{
+
+	-webkit-box-shadow: 0 0 15px 4px #ff0;
+   -moz-box-shadow: 0 0 15px 4px #ff0;
+   box-shadow: 0 0 15px 4px #ff0;
+
+}
+
 #four {
 	vertical-align: top;
 	font-family: Verdana, sans-serif;
@@ -167,10 +177,6 @@ div div {
 	margin-left: -10px;
 	
 	margin: 0 auto;
-    
-   -webkit-box-shadow: 0 0 15px 4px #0f0;
-   -moz-box-shadow: 0 0 15px 4px #0f0;
-   box-shadow: 0 0 15px 4px #0f0;
 	
 	background: #308014;
    background: -webkit-gradient(linear, left top, left bottom, color-stop(31%,#94c4fe), color-stop(100%,#d3f6fe));
@@ -180,6 +186,14 @@ div div {
    background: -ms-linear-gradient(top,  #308014 31%,#d3f6fe 100%);
    background: linear-gradient(to bottom, #308014 31%,#d3f6fe 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#308014', endColorstr='#d3f6fe',GradientType=0 );
+}
+
+#four{
+
+	-webkit-box-shadow: 0 0 15px 4px #0f0;
+   -moz-box-shadow: 0 0 15px 4px #0f0;
+   box-shadow: 0 0 15px 4px #0f0;
+
 }
 
 #five {
@@ -200,9 +214,9 @@ div div {
 #line{
 	margin: 0 auto;
     
-   -webkit-box-shadow: 0 0 15px 2px #000;
-   -moz-box-shadow: 0 0 15px 2px #000;
-   box-shadow: 0 0 15px 2px #000;
+   -webkit-box-shadow: 0 0 15px 4px #000;
+   -moz-box-shadow: 0 0 15px 4px #000;
+   box-shadow: 0 0 15px 4px #000;
 
 }
 
