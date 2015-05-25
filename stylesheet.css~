@@ -104,12 +104,13 @@ li:hover{
 #welcome{
 	position:fixed;
 	text-align: center;
-	margin-top:100px;
+	margin-top:150px;
 
 }
 
 #portrait{
-	position:absolute;
+	margin-left:-40px;
+	position:fixed;
 
 }
 
