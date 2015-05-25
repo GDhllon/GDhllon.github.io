@@ -109,7 +109,7 @@ li:hover{
 }
 
 #portrait{
-	margin-left:-40px;
+	align-self: center;
 	position:fixed;
 
 }
