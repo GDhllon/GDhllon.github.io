@@ -18,7 +18,10 @@
 		<a href="mailto:me@garydhillon.com"><p id="email">me@garydhillon.com</p></a>
 	    </div>
 	    <div class = "left">
-	    	<img src="snapshot.png" />
+	    	<img id ="portrait" src="snapshot.png" />
+	    	<div id="welcome">
+	    	<p id ="text"> Welcome to my personal portfolio. Take a look around and feel free to drop me a line. </p>
+	    	</div>
 	    </div>
 	    <div class = "right">
 	    	<div id="one">About</div>

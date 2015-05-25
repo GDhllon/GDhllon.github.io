@@ -52,7 +52,7 @@ li:hover{
 }
 
 #name:hover{
-	color:#FF0000
+	color:#FF0000;
 
 }
 
@@ -76,9 +76,10 @@ li:hover{
 }
 
 #email:hover{
-	color:#FF0000
+	color:#FF0000;
 
 }
+
 
 #header {
 	z-index: 1;
@@ -100,10 +101,15 @@ li:hover{
 	margin-bottom: 10px;
 }
 
+#welcome{
+	position:fixed;
+	text-align: center;
+	margin-top:100px;
+
+}
+
 #portrait{
 	position:absolute;
-	opacity: 0.4;
-   filter: alpha(opacity=40);
 
 }
 
