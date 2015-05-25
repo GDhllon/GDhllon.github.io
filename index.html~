@@ -6,7 +6,7 @@
 	</head>
 	<body>
 	    <div id = "header"> 
-	   <a href = "www.garydhillon.com"><p id="name">Gary Dhillon</p>
+	   <a href = "http://garydhillon.com"><p id="name">Gary Dhillon</p>
 	   <div id="navbar">
 				<ul>
 					<li>About</li>
@@ -18,6 +18,7 @@
 		<a href="mailto:me@garydhillon.com"><p id="email">me@garydhillon.com</p></a>
 	    </div>
 	    <div class = "left">
+	    	<img src="snapshot.png" />
 	    </div>
 	    <div class = "right">
 	    	<div id="one">About</div>
