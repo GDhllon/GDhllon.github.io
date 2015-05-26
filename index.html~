@@ -20,14 +20,14 @@
 	    <div class = "left">
 	    	<img id ="portrait" src="snapshot.png" />
 	    	<div id="welcome">
-	    	<p id ="text"> Welcome to my personal portfolio. Take a look around and feel free to drop me a line. </p>
+	    		Welcome to my personal portfolio. Take a look around and feel free to drop me a line.
 	    	</div>
 	    </div>
 	    <div class = "right">
-	    	<div id="one">About</div>
-			<div id="two">Projects</div>
-			<div id="three">Contact</div>
-			<div id="four">Resume</div>
+	    	<button id="one">About</button>
+			<button id="two">Projects</button>
+			<button id="three">Contact</button>
+			<button id="four">Resume</div>
 	    	<div id = "five">
 	    		<div id = "six">Name: Gary Dhillon </div>
 	    			   <p id = "name2">Subject: Computer Science</p>

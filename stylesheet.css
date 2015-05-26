@@ -52,7 +52,7 @@ li:hover{
 }
 
 #name:hover{
-	color:#FF0000;
+	color:#FF0000
 
 }
 
@@ -76,10 +76,9 @@ li:hover{
 }
 
 #email:hover{
-	color:#FF0000;
+	color:#FF0000
 
 }
-
 
 #header {
 	z-index: 1;
@@ -102,31 +101,16 @@ li:hover{
 }
 
 #welcome{
-	position:fixed;
-	text-align: center;
-	margin-top:150px;
-	font-family: Futura, Tahoma, sans-serif;
-	font-size:18px;
-	color: #ffffff;
+	position: absolute;
+	margin-top:130px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
 	
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
 
 }
 
 #portrait{
-	align-content: center;
-	margin-left:-35px;
-	position:fixed;
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
-	
+	position:absolute;
 
 }
 
@@ -160,14 +144,14 @@ li:hover{
 }
 
 div div {
-	height: 50px;
-	width: 10%;
 	border-radius: 5px;
 	display:inline-block;
 	
 }
 
 #one {
+	height: 50px;
+	width: 10%;
 	border: 2px solid black;
 	vertical-align: top;
 	font-family: Verdana, sans-serif;
@@ -236,6 +220,8 @@ div div {
 }
 
 #two {
+	height: 50px;
+	width: 10%;
 	vertical-align: top;
 	border: 2px solid black;
 	font-family: Verdana, sans-serif;
@@ -274,6 +260,8 @@ div div {
 }
 
 #three {
+	height: 50px;
+	width: 10%;
 	border: 2px solid black;
 	vertical-align: top;
 	font-family: Verdana, sans-serif;
@@ -312,6 +300,8 @@ div div {
 }
 
 #four {
+	height: 50px;
+	width: 10%;
 	border: 2px solid black;
 	vertical-align: top;
 	font-family: Verdana, sans-serif;
