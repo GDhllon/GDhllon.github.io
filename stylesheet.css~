@@ -333,11 +333,11 @@ div div {
    background: linear-gradient(to bottom, #308014 31%,#d3f6fe 100%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#308014', endColorstr='#d3f6fe',GradientType=0 );
    
-   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 4s; /* Firefox < 16 */
-        -ms-animation: fadein 4s; /* Internet Explorer */
-         -o-animation: fadein 4s; /* Opera < 12.1 */
-            animation: fadein 4s;
+   -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
 }
 
 #four:hover{
