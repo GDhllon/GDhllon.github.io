@@ -31,7 +31,7 @@
 	    <div class = "left">
 	    	<img id ="portrait" src="snapshot.png" />
 	    	<div id="welcome">
-	    		Welcome to my personal portfolio. Take a look around and feel free to drop me a line.
+	    		Welcome to my personal folder. Take a look around and feel free to drop me a line.
 	    	</div>
 	    </div>
 	    <div class = "right">
@@ -49,7 +49,7 @@
 	    	
 	    	<div id = "about">About Me<br>
 	    	I am a 20 year old Computer Science student currently enrolled at the University of Guelph in the Co Op program.<br>
-	    	My skill set includes an in depth knowledge of C and Java with an intermediate knowledge of HTML, CSS, SQL, all of which  <br>
+	    	My skill set includes an in depth knowledge of C and Java with an intermediate knowledge of HTML, CSS, SQL, Bash script and Assembly all of which  <br>
 	    	I've used to solve assignment related problems as well as to work on my own personal projects.
 	    	
 	    	
