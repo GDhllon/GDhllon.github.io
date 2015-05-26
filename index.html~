@@ -8,7 +8,14 @@
 		$(document).ready(function(){
     		$("#one").click(function(){
         		$("#line").fadeOut("slow");
+        		$("#contact").fadeOut("slow");
         		$("#about").fadeIn("slow");
+    		});
+    		
+    		$("#two").click(function(){
+        		$("#line").fadeOut("slow");
+        		$("#contact").fadeIn("slow");
+        		$("#about").fadeOut("slow");
     		});
 		});
 		</script>
@@ -48,12 +55,18 @@
 	    	<hr id="line" color="black" size="2.5">
 	    	
 	    	<div id = "about">About Me<br>
-	    	I am a 20 year old Computer Science student currently enrolled at the University of Guelph in the Co Op program.<br>
+	    	I am a 20 year old student currently enrolled at the University of Guelph in the Honours Computer Science (Co Op) program with a minor in Business Administration.<br>
 	    	My skill set includes an in depth knowledge of C and Java with an intermediate knowledge of HTML, CSS, SQL, Bash script and Assembly all of which  <br>
 	    	I've used to solve assignment related problems as well as to work on my own personal projects.
 	    	
 	    	
 	    	</div>
+	    	<div id = "contact">Interested in contacting me?<br>
+	    	Whether you want to just say hi or are interested in working together feel free to drop me a line or give me a ring:<br>
+	    	Email: me@garydhillon.com<br>
+	    	Phone: 647-231-8477<br>
+	    	</div>
+	    	
 	    </div>
 	    <div id = "footer"> </div>
 	</body>
