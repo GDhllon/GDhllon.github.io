@@ -2,6 +2,17 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+    		$("#one").click(function(){
+        		$("#line").fadeOut("slow");
+        		$("#about").fadeIn("slow");
+    		});
+		});
+		</script>
+		
 		<title></title>
 	</head>
 	<body>
@@ -35,6 +46,11 @@
 	    	
 	    		</div>
 	    	<hr id="line" color="black" size="2.5">
+	    	
+	    	<div id = "about">YOOOOOOOOOOOOOOOOOOOOO
+	    	
+	    	
+	    	</div>
 	    </div>
 	    <div id = "footer"> </div>
 	</body>
