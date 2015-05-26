@@ -355,7 +355,7 @@ div div {
 
 #about{
 	height:600px;
-	width:100%;
+	width:88%;
 	display:none;
 	background-image:  -webkit-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -webkit-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -webkit-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -webkit-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
     background-image:  -moz-linear-gradient(left, rgba(255,85,91, .2), rgba(255,85,91, .2)), -moz-linear-gradient(left, rgba(255,85,91, .8), rgba(255,85,91, .8)), -moz-linear-gradient(top, white 0px, white 69px, rgba(255,255,255,0) 70px), -moz-repeating-linear-gradient(white 0px, white 18px, #A6FFED 19px, white 20px);
@@ -365,10 +365,47 @@ div div {
     background-size: 1px, 1px, auto, auto 20px;
     background-repeat: repeat-y, repeat-y, no-repeat, repeat;
     background-position: 90% 0px, 10% 0px, 0px 0px, 0px 0px;
+    
+    line-height: 20px;
+    padding-top: 60px;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+    text-align: justify;
 
 }
 
-#line{
-
+#about:first-line {
+    font: 20pt Arial, sans-serif;
+    line-height: 23px;
+    vertical-align: baseline;
 }
+
+#about:after {    
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    position: absolute;
+    background: rgba(255,255,255,1);
+    top: 30px;
+    left: 2%;
+    z-index: 10;
+    -webkit-box-shadow: 
+        inset 2px 2px 5px rgba(125,125,125,1),  
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),  
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    -moz-box-shadow: 
+        inset 2px 2px 5px rgba(125,125,125,1),  
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),  
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+    box-shadow: 
+        inset 2px 2px 5px rgba(125,125,125,1),  
+        2px 50.1em 5px rgba(255,255,255,1), 0px 50em rgba(125,125,125,.75),  
+        2px 90.1em 5px rgba(255,255,255,1), 0px 90em rgba(125,125,125,.5),
+        2px 130.1em 5px rgba(255,255,255,1), 0px 130em rgba(125,125,125,.25);
+}
+
 
