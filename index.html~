@@ -12,7 +12,7 @@
         		$("#about").fadeIn("slow");
     		});
     		
-    		$("#two").click(function(){
+    		$("#three").click(function(){
         		$("#line").fadeOut("slow");
         		$("#contact").fadeIn("slow");
         		$("#about").fadeOut("slow");
@@ -24,13 +24,13 @@
 	</head>
 	<body>
 	    <div id = "header"> 
-	   <a href = "http://garydhillon.com"><p id="name">Gary Dhillon</p>
+	   <a href = "http://garydhillon.com"><p id="name">Gary Dhillon</p></a>
 	   <div id="navbar">
 				<ul>
-					<li>About</li>
-					<li>Projects</li>
-					<li>Contact</li>
-					<li>Resume</li>
+					<li id="alt1">About</li>
+					<li id ="alt2">Projects</li>
+					<li id ="alt3">Contact</li>
+					<li id = "alt4">Resume</li>
 				</ul>
 			</div> 
 		<a href="mailto:me@garydhillon.com"><p id="email">me@garydhillon.com</p></a>
@@ -42,10 +42,10 @@
 	    	</div>
 	    </div>
 	    <div class = "right">
-	    	<button id="one">About</button>
-			<button id="two">Projects</button>
-			<button id="three">Contact</button>
-			<button id="four">Resume</button>
+	    	<div id="one">About</div>
+			<div id="two">Projects</div>
+			<div id="three">Contact</div>
+			<div id="four">Resume</div>
 	    	<div id = "five">
 	    		<div id = "six">Name: Gary Dhillon </div>
 	    			   <p id = "name2">Subject: Computer Science</p>
