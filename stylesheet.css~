@@ -175,6 +175,7 @@ div div {
 	border-top-width:6px;
 	border-right-width:6px;
 	color: #ffffff;
+	border-bottom-width:15px;
 	
 	
    background: #FF0000;
