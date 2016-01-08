@@ -23,6 +23,27 @@ div {
 	height: 20%;
 	background-color: #262626;
 	margin-bottom: 10px;
+	text-align:center;
+	opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+}
+
+#navbar {
+	position:relative;
+	width: 100%;
+	margin-top: 7%;
+	left:29%;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -30,28 +51,37 @@ div {
             animation: fadein 2s;
 }
 
-#navbar {
-	position:relative;
-	width: 100%;
-	margin-top: 7%;
-	left:33%;
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
-}
-
 
 .centre {
 	width: 100%;
 	height: 70%;
 	background-color: #FFFFFF;
+	position: relative;
 }
 
+#dialog {
+	width: 300px;
+    height: 200px;
+    background-color: #CCC;
+    position: absolute;
+    top: 20%;
+    left: 41%;
+    opacity: 0.7;
+    filter: alpha(opacity=70); /* For IE8 and earlier */
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+    -webkit-animation: fadeout 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadeout 2s; /* Firefox < 16 */
+        -ms-animation: fadeout 2s; /* Internet Explorer */
+         -o-animation: fadeout 2s; /* Opera < 12.1 */
+            animation: fadeout 2s;
+}
 #footer {
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	background-color: #262626;
 	clear: both;
 	font-family: Futura, Tahoma, sans-serif;
@@ -60,6 +90,13 @@ div {
 	text-align: left;
 	color: #ffffff;
 }
+
+#map {
+    width: 300px;
+    height: 200px;
+    background-color: #CCC;
+}
+
 
 
 ul{
@@ -70,12 +107,12 @@ ul{
 li {
 	/*Add your CSS here!*/
 	display:inline;
-	padding:30px;
-	border: 0px;
-	font-family: Futura, Tahoma, sans-serif;
-	font-weight: bold;
+	padding:50px;
+	font-family: "Book Antiqua", Palatino, serif;
+	font-size:20px;
 	color: #ffffff;
 }
+
 
 @keyframes fadein {
     from { opacity: 0; }
@@ -105,3 +142,33 @@ li {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.7; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.7; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.7; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.7; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadeout {
+    from { opacity: 1; }
+    to   { opacity: 0.7; }
+}
+
