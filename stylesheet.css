@@ -20,7 +20,6 @@ div {
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	margin-top: -20px;
 	height: 20%;
 	background-color: #262626;
 	margin-bottom: 10px;
@@ -34,7 +33,7 @@ div {
 #navbar {
 	position:relative;
 	width: 100%;
-	margin-top: 8%;
+	margin-top: 7%;
 	left:33%;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -48,6 +47,18 @@ div {
 	width: 100%;
 	height: 70%;
 	background-color: #FFFFFF;
+}
+
+#footer {
+	width: 100%;
+	height: 200px;
+	background-color: #262626;
+	clear: both;
+	font-family: Futura, Tahoma, sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	color: #ffffff;
 }
 
 
