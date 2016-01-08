@@ -60,12 +60,13 @@ div {
 }
 
 #dialog {
-	width: 300px;
-    height: 200px;
-    background-color: #CCC;
+	width: 500px;
+    height: 400px;
+    background-color: #330033;
     position: absolute;
     top: 20%;
-    left: 41%;
+    left: 35%;
+    text-align:center;
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -79,6 +80,20 @@ div {
          -o-animation: fadeout 2s; /* Opera < 12.1 */
             animation: fadeout 2s;
 }
+
+#name {
+	border-bottom: 2px solid #ffffff;
+	font-family: "Book Antiqua", Palatino, serif;
+	font-size:50px;
+	color:#ffffff;
+	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+	
+
 #footer {
 	width: 100%;
 	height: 300px;
@@ -171,4 +186,3 @@ li {
     from { opacity: 1; }
     to   { opacity: 0.7; }
 }
-
