@@ -2,42 +2,11 @@
 <html>
 	<head>
 		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
-
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script>
-		$(document).ready(function(){
-    		$("#one").click(function(){
-        		$("#line").fadeOut("fast");
-        		$("#contact").fadeOut("fast");
-        		$("#about").fadeIn("slow");
-    		});
-    		
-    		$("#three").click(function(){
-        		$("#line").fadeOut("fast");
-        		$("#contact").fadeIn("slow");
-        		$("#about").fadeOut("fast");
-    		});
-    		
-    		$("#alt1").click(function(){
-        		$("#line").fadeOut("fast");
-        		$("#contact").fadeOut("fast");
-        		$("#about").fadeIn("slow");
-    		});
-    		
-    		$("#alt3").click(function(){
-        		$("#line").fadeOut("fast");
-        		$("#contact").fadeIn("slow");
-        		$("#about").fadeOut("fast");
-    		});
-		});
-		</script>
-		
 		<title></title>
 	</head>
 	<body>
-	    <div id = "header"> 
-	   <a href = "http://garydhillon.com"><p id="name">Gary Dhillon</p></a>
-	   <div id="navbar">
+		<div id="header">
+			<div id="navbar">
 				<ul>
 					<li id="alt1">About</li>
 					<li id ="alt2">Projects</li>
@@ -45,42 +14,10 @@
 					<li id = "alt4">Resume</li>
 				</ul>
 			</div> 
-		<a href="mailto:me@garydhillon.com"><p id="email">me@garydhillon.com</p></a>
-	    </div>
-	    <div class = "left">
-	    	<img id ="portrait" src="snapshot.png" />
-	    	<div id="welcome">
-	    		Welcome to my personal folder. Take a look around and feel free to drop me a line.
-	    	</div>
-	    </div>
-	    <div class = "right">
-	    	<div id="one">About</div>
-			<div id="two">Projects</div>
-			<div id="three">Contact</div>
-			<a href="http://garydhillon.com/Resume.html"><div id="four">Resume
-			</div></a>
-	    	<div id = "five">
-	    		<div id = "six">Name: Gary Dhillon </div>
-	    			   <p id = "name2">Subject: Computer Science</p>
-	    	
-	    	
-	    		</div>
-	    	<hr id="line" color="black" size="2.5">
-	    	
-	    	<div id = "about">About Me<br>
-	    	I am a 20 year old student currently enrolled at the University of Guelph in the Honours Computer Science (Co Op) program with a minor in Business Administration.<br>
-	    	My skill set includes an in depth knowledge of C and Java with an intermediate knowledge of HTML, CSS, SQL, Bash script and Assembly all of which  <br>
-	    	I've used to solve assignment related problems as well as to work on my own personal projects.
-	    	
-	    	
-	    	</div>
-	    	<div id = "contact">Interested in contacting me?<br>
-	    	Whether you want to just say hi or are interested in working together feel free to drop me a line or give me a ring:<br>
-	    	Email: me@garydhillon.com<br>
-	    	Phone: 647-231-8477<br>
-	    	</div>
-	    	
-	    </div>
-	    <div id = "footer"> </div>
+		</div>
+		<div class="centre">
+		<img id ="background" src="Background.jpg" />
+		</div>
+	   <div id = "footer"> </div>
 	</body>
 </html>
