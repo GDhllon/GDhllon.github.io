@@ -33,9 +33,8 @@ div {
 
 #navbar {
 	position:relative;
-	height: 20%;
 	width: 100%;
-	margin-top: 8%;
+	margin-top: 6%;
 	left:35%;
 	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 3s; /* Firefox < 16 */
