@@ -84,7 +84,7 @@ div {
 #name {
 	border-bottom: 2px solid #ffffff;
 	font-family: "Book Antiqua", Palatino, serif;
-	font-size:50px;
+	font-size:250%;
 	color:#ffffff;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
