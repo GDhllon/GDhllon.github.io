@@ -18,6 +18,26 @@
 		}
 		google.maps.event.addDomListener(window, 'load', initialize);
 		</script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+    		$("#alt1").click(function(){
+				$("html, body").animate({ scrollTop: 0 }, "slow");
+				$("#projects").fadeOut("fast");
+        		$("#about").fadeIn("slow");
+    		});
+    		$("#alt2").click(function(){
+        		$("html, body").animate({ scrollTop: 0 }, "slow");
+        		$("#about").fadeOut("fast");
+				$("#projects").fadeIn("slow");
+    		});
+    		$("#alt3").click(function() {
+				$("html, body").animate({ scrollTop: $(document).height() }, "slow");
+				return false;
+			});
+    		
+		});
+		</script>
 
 		<title></title>
 	</head>
@@ -36,7 +56,19 @@
 			<img id ="background" src="background.jpg"/>
 			<div id ="dialog">
 				<h1 id="name">Gary Dhillon</h1>
-			</div>
+				<div id = "about"><br>
+				I am a 21 year old student currently enrolled at the University of Guelph in the Honours Computer Science (Co Op) program with a minor in Business Administration.<br>
+				My skill set includes an in depth knowledge of C and Java with an intermediate knowledge of HTML, CSS, SQL, Bash script and Assembly all of which
+				I've used to solve assignment related problems as well as to work on my own personal projects.
+				</div>
+				<div id = "projects"><br>
+				A respository of some of my work can be found on my github page here:<br>
+				<br>
+				<a href="https://github.com/GDhllon"><div id="github">Git Hub
+				</div></a>
+				<br>
+				On my repository you can find things such as my implementations of various data structures, basic GUI based programs and the HTML/CSS code I wrote for this website.
+				</div>
 		</div>
 	   <div id = "footer"> 
 			Interested in contacting me?<br>
