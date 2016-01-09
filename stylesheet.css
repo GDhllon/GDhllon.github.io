@@ -43,7 +43,7 @@ div {
 	position:relative;
 	width: 100%;
 	margin-top: 160px;
-	left:29%;
+	left:35%;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -144,7 +144,7 @@ ul{
 li {
 	/*Add your CSS here!*/
 	display:inline;
-	padding:50px;
+	padding:20px;
 	font-family: "Book Antiqua", Palatino, serif;
 	font-size:20px;
 	color: #ffffff;
