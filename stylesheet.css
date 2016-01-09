@@ -43,7 +43,7 @@ div {
 	position:relative;
 	width: 100%;
 	margin-top: 8%;
-	left:35%;
+	left:34%;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -97,7 +97,8 @@ div {
 #about {
 	display: none;
 	font-family: "Book Antiqua", Palatino, serif;
-	color:#ffffff;	
+	color:#ffffff;
+	font-size: 100%;
 }
 
 #github {
@@ -114,6 +115,7 @@ div {
 	display: none;
 	font-family: "Book Antiqua", Palatino, serif;
 	color:#ffffff;	
+	font-size: 100%;
 }
 
 #footer {
