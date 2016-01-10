@@ -20,7 +20,7 @@ div {
 	z-index: 1;
 	position: fixed;
 	width: 100%;
-	height: 200px;
+	height: 16.7vh;
 	background-color: #262626;
 	margin-bottom: 10px;
 	text-align:center;
@@ -42,8 +42,8 @@ div {
 #navbar {
 	position:relative;
 	width: 100%;
-	margin-top: 8%;
-	left:34%;
+	margin-top: 9vh;
+	left:33vw;
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
@@ -60,12 +60,12 @@ div {
 }
 
 #dialog {
-    width: 27%;
-    height: 25%;
+	width: 27vw;
+    height: 40vh;
     background-color: #262626;
     position: absolute;
-    top: 20%;
-    left: 35%;
+    top: 25vh;
+    left: 35vw;
     text-align:center;
     opacity: 0.7;
     filter: alpha(opacity=70); /* For IE8 and earlier */
@@ -92,6 +92,7 @@ div {
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
+	
 
 #about {
 	display: none;
@@ -119,12 +120,12 @@ div {
 
 #footer {
 	width: 100%;
-	height: 300px;
+	height: 25vh;
 	background-color: #262626;
 	clear: both;
 	font-family: "Book Antiqua", Palatino, serif;
 	font-weight:bold;
-	font-size: 20px;
+	font-size: 1.2vw;
 	text-align: left;
 	color: #ffffff;
 }
@@ -145,9 +146,9 @@ ul{
 li {
 	/*Add your CSS here!*/
 	display:inline;
-	padding:20px;
+	padding:1.2vw;
 	font-family: "Book Antiqua", Palatino, serif;
-	font-size:20px;
+	font-size: 1.2vw;
 	color: #ffffff;
 }
 
