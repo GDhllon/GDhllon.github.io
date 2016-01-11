@@ -51,6 +51,12 @@ div {
             animation: fadein 2s;
 }
 
+#alt4 {
+	font-family: "Book Antiqua", Palatino, serif;
+	font-size: 0.9vw;
+	color:#ffffff;	
+}
+
 
 .centre {
 	width: 100%;
