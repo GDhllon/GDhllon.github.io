@@ -52,6 +52,7 @@ div {
 }
 
 #alt4 {
+	text-decoration: none;
 	font-family: "Book Antiqua", Palatino, serif;
 	font-size: 0.9vw;
 	color:#ffffff;	
