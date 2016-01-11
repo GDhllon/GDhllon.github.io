@@ -58,6 +58,11 @@ a {
 	color:#ffffff;	
 }
 
+a:hover {
+	color: #7575a3;
+	cursor: pointer;
+}
+
 
 .centre {
 	width: 100%;
