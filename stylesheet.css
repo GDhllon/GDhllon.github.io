@@ -17,7 +17,8 @@ div {
 
 #alt1{
 	visibility:hidden;
-
+}
+	
 #header {
 	z-index: 1;
 	position: fixed;
