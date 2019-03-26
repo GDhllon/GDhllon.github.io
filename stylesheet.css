@@ -16,6 +16,7 @@ div {
 }
 
 .hidden{
+	display:none;
 }
 	
 #header {
