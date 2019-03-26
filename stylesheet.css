@@ -15,8 +15,8 @@ div {
 
 }
 
-.hide{
-	visibility:hidden;
+.hidden{
+	display:none;
 }
 	
 #header {
